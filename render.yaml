@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: php-web-service
+    env: docker
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: RENDER_EXTERNAL_URL
+        value: "http://0.0.0.0"
