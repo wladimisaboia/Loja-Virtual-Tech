@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #005a8d;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.option-card {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 15px;
+    background: #f9f9f9;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.option-card img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.option-card h2 {
+    margin: 10px 0;
+    color: #005a8d;
+}
+
+.option-card p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
